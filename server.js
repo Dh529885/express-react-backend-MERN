@@ -89,7 +89,7 @@ app.delete("/people/:id", async (req, res) => {
   }
 });
 
-// PEOPLE UPDATE ROUTE
+//UPDATE ROUTE
 app.put("/people/:id", async (req, res) => {
   try {
     // send all people
